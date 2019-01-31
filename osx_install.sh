@@ -27,7 +27,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-COMPUTER_NAME="WKS-000883"
+COMPUTER_NAME="MY_COMPUTER"
 
 #sudo scutil --set ComputerName "$COMPUTER_NAME"
 #sudo scutil --set HostName "$COMPUTER_NAME"
