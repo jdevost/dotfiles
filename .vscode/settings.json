@@ -2,7 +2,8 @@
   "python.pythonPath": "/usr/local/bin/python3",
   "python.formatting.provider": "autopep8",
   "python.formatting.autopep8Args": [
-    "--max-line-length=119"
+    "--max-line-length=119",
+    "--indent-size=2"
   ],
   "editor.tabSize": 4,
   "editor.formatOnSave": true
