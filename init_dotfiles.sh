@@ -26,7 +26,7 @@ for file in $BASE_DIR/.vscode/*; do
 done
 
 
-for file in ".gitignore" ".eslintrc.json" ".jshintrc"; do
+for file in ".gitignore" ".eslintrc.json" ".prettierrc"; do
   if [ -f $CURRENT_DIR/$file ]; then
     echo "skip $file"
   else

@@ -1,4 +1,5 @@
 {
+  "ignorePatterns": ["node_modules"],
   "extends": "eslint:recommended",
   "parserOptions": {
     "ecmaVersion": 2020
