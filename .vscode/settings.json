@@ -6,5 +6,7 @@
     "--indent-size=2"
   ],
   "editor.tabSize": 2,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "typescript.format.semicolons": "insert",
+  "javascript.format.semicolons": "insert"
 }
